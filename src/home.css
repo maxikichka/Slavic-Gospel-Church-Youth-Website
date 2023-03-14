@@ -1,0 +1,83 @@
+#body {
+    background-color: #dcdada;
+    display: grid;
+    gap: 30px 30px;
+}
+#addStreamBtn {
+    position: absolute;
+}
+#servicesElement {
+    display: grid;
+    gap: 30px 30px;
+}
+#searchingForService {
+    display: grid;
+    gap: 50px 50px;
+}
+#searchByDate {
+    display: grid;
+    padding: 25px;
+    border-radius: 50px;
+background: #dcdada;
+box-shadow:  20px 20px 60px #868585,
+             -20px -20px 60px #ffffff;
+}
+#searchByPeople {
+    display: grid;
+    padding: 25px;
+    border-radius: 50px;
+background: #dcdada;
+box-shadow:  20px 20px 60px #868585,
+             -20px -20px 60px #ffffff;
+    grid-column-start: 2;
+}
+#searchBtn {
+    margin: auto;
+    width: 50%;
+    height:70px;
+    font-size: 30px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: 0;
+    border-radius: 50px;
+background: #c9c9c9;
+box-shadow:  20px 20px 60px #939393,
+             -20px -20px 60px #ffffff;
+}
+#searchBtn:active {
+    border-radius: 50px;
+    background: #c9c9c9;
+    box-shadow: inset 9px 9px 18px #939393,
+                inset -9px -9px 18px #ffffff;
+}
+#searchBtn:hover {
+    transition: 0.7s;
+    transform: scale(1.1);
+}
+#clear {
+    margin: auto;
+    width: 50%;
+    height:70px;
+    font-size: 20px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: 0;
+    border-radius: 50px;
+background: #c9c9c9;
+box-shadow:  20px 20px 60px #939393,
+             -20px -20px 60px #ffffff;
+}
+#clear:active {
+    border-radius: 50px;
+    background: #c9c9c9;
+    box-shadow: inset 9px 9px 18px #939393,
+                inset -9px -9px 18px #ffffff;
+}
+#clear:hover {
+    transition: 0.7s;
+    transform: scale(1.1);
+}
+#links {
+    display: grid;
+    gap: 30px 30px;
+}
