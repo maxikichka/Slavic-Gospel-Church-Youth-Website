@@ -115,7 +115,7 @@ app.use(express.static('src'));
 app.use(express.static('db'));
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + "/src/home.html")
+  res.sendFile(__dirname + "/src/index.html")
 })
 
 app.post('/serviceURLs', (req, res) => {
