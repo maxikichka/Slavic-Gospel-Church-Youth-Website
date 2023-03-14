@@ -117,8 +117,8 @@ app.use(bodyParser.json());
 //   await filehandle?.close();
 // }
 
-app.use(express.static('src'));
-app.use(express.static('db'));
+app.use(express.static('/src'));
+app.use(express.static('/db'));
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + "/index.html")
